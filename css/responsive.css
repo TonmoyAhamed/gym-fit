@@ -1,0 +1,771 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .logo {
+        margin: 0;
+        font-size: 30px;
+    }
+    .menu li{
+        padding-left: 0;
+    }
+    .banner-slider-content {
+        padding: 0 15px;
+    }
+    .banner-slider-content h2 {
+        font-size: 50px;
+    }
+    .banner-slider-content h3 {
+        font-size: 20px;
+    }
+    .banner-slider-content p {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .banner-slider-content a {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+    .banner-slider-content::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: 13px;
+        top: -20px;
+        width: 100px;
+    }
+    .banner .owl-nav button.owl-prev,.banner .owl-nav button.owl-next{
+        display: none;
+    }
+    .banner-single-slide {
+        padding: 150px 0;
+    }
+    .banner::after{
+        display: none;
+    }
+    .banner .owl-dots {
+        bottom: 15px;
+    }
+    .about-content h2 {
+        font-size: 40px;
+    }
+    .about-content h2::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -29px;
+        top: -28px;
+    }
+    .about-content h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about-content a {
+        padding: 10px 45px;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .about-img {
+        display: none;
+    }
+    .course-heading h2 {
+        font-size: 35px;
+    }
+    .course-heading h2::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -23px;
+        top: -29px;
+    }
+    .course-heading h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .course-heading {
+        margin-bottom: 0;
+    }
+    .course {
+        padding: 90px 15px;
+    }.course::after{
+        display: none;
+    }
+    .course-p {
+        position: relative;
+        max-width: 260px;
+        margin: 45px auto 0 auto;
+    }
+    .course-p::before {
+        height: 100px;
+        left: 30px;
+        top: -34px;
+    }
+    .course-heading.trainer-heading {
+        margin-bottom: 40px;
+    }
+    .trainer {
+        padding: 60px 15px;
+    }
+    .trainer-photo {
+        margin: 0 auto 20px auto;
+    }
+    .row-m {
+        margin-top: 25px;
+    }
+    .trainer-single-content {
+        margin-top: 40px;
+    }
+    .video-details h2 {
+        padding-top: 30px;
+        font-size: 27px;
+    }
+    .video-details {
+        padding: 70px 0;
+    }
+    .video-btn a {
+        padding: 12px 44px;
+    }
+    .membership {
+        padding: 30px 10px;
+    }
+    .partner {
+        padding: 30px 0;
+    }
+    section.blog {
+        padding: 30px 10px;
+    }
+    .blog-p::before {
+        left: 32px;
+        top: -32px;
+    }
+    .membership-header {
+        padding: 50px 10px;
+    }
+    .blog-box-img {
+        max-width: 270px;
+    }
+    .blog-p {
+        margin-bottom: 39px;
+    }
+    .blog-readmore-btn a {
+        margin: 15px auto 0 auto;
+        padding: 13px 0;
+    }
+    .conatct-us {
+        width: 100%;
+        padding: 48px 15px 48px;
+        margin-top: 25px;
+    }
+    .conatct-us h2 {
+        font-size: 35px;
+    }
+    footer {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+    .footer-menu {
+        margin: 0 0 50px 0;
+    }
+    .footer-menu ul li {
+        margin-right: 25px;
+    }
+    .footer-mail input[type="email"] {
+        width: 80%;
+    }
+    .footer-mail {
+        text-align: left;
+    }
+    .social ul li a i {
+        height: 35px;
+        line-height: 34px;
+        width: 35px;
+    }
+    /*about page*/
+    .breadcrumb-heading h2 {
+        font-size: 40px;
+    }
+    .breadcrumb-heading h3 {
+        font-size: 24px;
+        margin-bottom: 1px;
+    }
+    .breadcrumb-heading h2::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -25px;
+        top: -25px;
+    }
+    section.breadcrumb {
+        height: 440px;
+    }
+    .breadcrumb-heading {
+        margin-top: 150px;
+    }
+    section.about-content.about-page-content {
+        padding: 70px 0 0 0;
+    }
+    .about2-img::before {
+        left: -10px;
+        top: -11px;
+        width: 285px;
+    }
+    .about2-content {
+        margin-top: 45px;
+    }
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    section.testimonial {
+        padding: 30px 0;
+    }
+    section.trainer.responsive-class1 {
+        padding: 30px 0;
+    }
+    /*about page*/
+    /*blog page*/
+    .blog2-p::before {
+        height: 110px;
+        left: 28px;
+        top: -42px;
+        z-index: 99;
+    }
+    .blog-share ul li a {
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .blog-share ul li {
+        margin-right: 0 !important;
+    }
+    /*blog page*/
+    section.multimedia {
+        padding: 30px 0;
+    }
+    section.multi-contact {
+        padding: 60px 0 0 0;
+    }
+    .second-nav nav ul li a {
+        padding-right: 0px;
+        font-size: 14px;
+        padding: 7px 4px;
+        /* text-transform: uppercase; */
+    }
+    .second-nav nav ul {
+        display: inline-block;
+        margin: 0 0;
+        padding-left: 0;
+    }
+    .second-nav nav ul li {
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+    }
+    .second-nav nav ul li a {
+        font-size: 12px;
+        padding: 7px 2px;
+    }
+    .sanda-heading h2 {
+        margin-bottom: 0;
+    }
+    iframe {
+        width: 100%;
+    }
+    .wushu-page-img {
+        margin-top: 20px;
+    }
+    section.wushu-history-details {
+        padding: 25px 0;
+    }
+    .sanda-heading h2 {
+        margin-bottom: 30px;
+    }
+    /*singleblog*/
+    .post-title h2 {
+        font-size: 14px;
+    }
+    span.post-date {
+        font-size: 14px;
+    }
+    span.post-month {
+        font-size: 12px;
+    }
+    .blog-date {
+        margin-right: -10px;
+    }
+    .post-title p {
+        font-size: 12px;
+    }
+    .sport-wushu-img {
+        margin-top: 30px;
+    }
+    .blog2-img {
+        max-width: 290px;
+    }
+    section.blog2 {
+        padding: 60px 12px;
+    }
+    /*singleblog*/
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
+        margin: 0;
+        font-size: 30px;
+    }
+    .menu li{
+        padding-left: 0;
+    }
+    .banner-slider-content h2 {
+        font-size: 50px;
+    }
+    .banner-slider-content h3 {
+        font-size: 24px;
+    }
+    .banner-slider-content p {
+        font-size: 15px;
+    }
+    .banner-slider-content a {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+    .banner-slider-content::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: -1px;
+        top: -18px;
+        width: 100px;
+    }
+    .banner .owl-nav button.owl-prev,.banner .owl-nav button.owl-next{
+        display: none;
+    }
+    .banner-single-slide {
+        padding: 150px 0;
+    }
+    .banner::after{
+        display: none;
+    }
+    .banner .owl-dots {
+        bottom: 15px;
+    }
+    .about-img {
+        display: none;
+    }
+    .about-content h2 {
+        font-size: 40px;
+    }
+    .about-content h2::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -29px;
+        top: -28px;
+    }
+    .about-content h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about-content a {
+        padding: 10px 45px;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .course-heading h2 {
+        font-size: 40px;
+    }
+    .course-heading h2::before{
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -29px;
+        top: -28px;
+    }
+    .course-heading h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .course-heading {
+        margin-bottom: 40px;
+    }
+    .course {
+        padding: 90px 0px;
+    }.course::after{
+        display: none;
+    }
+    .course-p::before {
+        height: 125px;
+        left: 49px;
+        top: -24px;
+    }
+    .course-heading.trainer-heading {
+        margin-bottom: 40px;
+    }
+    .trainer-photo {
+        margin: 0 auto 20px auto;
+    }
+    .row-m {
+        margin-top: 25px;
+    }
+    .trainer-single-content {
+        margin-top: 40px;
+    }
+    .video-details h2 {
+        padding-top: 30px;
+        font-size: 27px;
+    }
+    .video-details {
+        padding: 70px 0;
+    }
+    .video-btn a {
+        padding: 12px 44px;
+    }
+    .membership {
+        padding: 30px 0;
+    }
+    .membership-header {
+        padding: 50px 30px;
+    }
+    .partner {
+        padding: 30px 0;
+    }
+    section.blog {
+        padding: 30px 0;
+    }
+    .blog-p::before {
+        left: 46px;
+        top: -29px;
+        transform: rotate( 
+    57deg
+     );
+    }
+    .blog-p {
+        margin-bottom: 39px;
+    }
+    .blog-readmore-btn a {
+        margin: 15px auto 0 auto;
+        padding: 13px 0;
+    }
+    .conatct-us {
+        width: 100%;
+        padding: 48px 15px 48px;
+        margin-top: 25px;
+    }
+    .conatct-us h2 {
+        font-size: 35px;
+    }
+    footer {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+    .footer-menu {
+        margin: 0 0 50px 0;
+    }
+    .footer-menu ul li {
+        margin-right: 25px;
+    }
+    .footer-mail input[type="email"] {
+        width: 90%;
+    }
+    .footer-mail {
+        text-align: left;
+    }
+    .social ul li a i {
+        height: 35px;
+        line-height: 34px;
+        width: 35px;
+    }
+    /*about page*/
+    .breadcrumb-heading h2 {
+        font-size: 50px;
+    }
+    .breadcrumb-heading h3 {
+        font-size: 25px;
+        margin-bottom: 1px;
+    }
+    .breadcrumb-heading h2::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        left: -25px;
+        top: -25px;
+    }
+    section.breadcrumb {
+        height: 440px;
+    }
+    .breadcrumb-heading {
+        margin-top: 150px;
+    }
+    section.about-content.about-page-content {
+        padding: 70px 0 0 0;
+    }
+    .about2-img::before {
+        left: -10px;
+        top: -11px;
+        width: 440px;
+    }
+    .about2-content {
+        margin-top: 45px;
+    }
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    section.testimonial {
+        padding: 30px 0;
+    }
+    section.trainer.responsive-class1 {
+        padding: 30px 0;
+    }
+    .blog2-p::before {
+        height: 125px;
+        left: 36px;
+        top: -37px;
+        z-index: 99;
+    }
+    /*about page*/
+    .sanda-heading h2 {
+        margin-bottom: 30px;
+    }
+    .wushu-page-img {
+        margin-top: 30px;
+    }
+    section.wushu-history-details {
+        padding: 30px 0;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        margin: 8px 0;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .menu li {
+        padding-left: 0;
+    }
+    .banner::after {
+        bottom: -1px;
+    }
+    .banner-slider-content h2 {
+        font-size: 60px;
+    }
+    .banner-slider-content h3 {
+        font-size: 30px;
+    }
+    .banner-slider-content a {
+        font-size: 18px;
+        padding: 10px 47px;
+    }
+    .banner-slider-content::before {
+        left: -10px;
+        top: -49px;
+    }
+    .banner-single-slide {
+        padding: 140px 0 248px 0;
+    }
+    .banner .owl-nav button.owl-next,.banner .owl-nav button.owl-prev{
+        display: none;
+    }
+    .banner .owl-dots {
+        bottom: 123px;
+    }
+    .about {
+        padding: 40px 0;
+    }
+    .about-content h2 {
+        font-size: 50px;
+    }
+    .about-content h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .about-content h2::before {
+        left: -38px;
+        top: -50px;
+    }
+    .about-content p {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .about-content a {
+        padding: 10px 40px;
+    }
+    .about-content {
+        padding: 0 10px 0;
+    }
+    .course::after {
+        bottom: -1px;
+    }
+    .course-heading h2 {
+        font-size: 50px;
+    }
+    .course-heading h3 {
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .course-p::before {
+        left: 30px;
+        top: -39px;
+    }
+    .course-title a h2 {
+        font-size: 16px;
+    }
+    .course {
+        padding: 90px 0 195px 0px;
+    }
+    .trainer {
+        padding: 40px 0 50px 0;
+    }
+    .course-heading.trainer-heading p {
+        font-size: 15px;
+    }
+    .course-heading.trainer-heading {
+        margin-bottom: 60px;
+    }
+    .trainer-details h2 {
+        font-size: 20px;
+    }
+    .video-details h2 {
+        font-size: 29px;
+    }
+    .video-btn a {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+    .membership-box2 {
+        margin-top: 0;
+    }
+    .partner {
+        padding: 40px 0;
+    }
+    section.blog {
+        padding: 40px 0;
+    }
+    .blog-p::before {
+        height: 92px;
+        left: 29px;
+        top: -31px;
+    }
+    .blog-box-title h3 {
+        font-size: 18px;
+    }
+    .blog-readmore-btn a {
+        padding: 12px 0;
+    }
+    .conatct-us h2 {
+        font-size: 28px;
+    }
+    .conatct-us {
+        padding: 48px 15px 48px;
+        width: 100%;
+        margin-top: -440px;
+    }
+    footer {
+        margin-top: -74px;
+        padding-bottom: 40px;
+    }
+    .footer-menu ul li {
+        margin-right: 30px;
+    }
+    /*about page*/
+    .breadcrumb-heading h2 {
+        font-size: 60px;
+    }
+    .breadcrumb-heading h3 {
+        font-size: 28px;
+    }
+    .about2-img::before {
+        left: -24px;
+        top: -24px;
+        width: 335px;
+    }
+    section.about-content.about-page-content {
+        padding: 80px 0 50px 0;
+    }
+    /*about page*/
+    .blog2-p::before {
+        height: 128px;
+        left: 34px;
+        top: -39px;
+        z-index: 99;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu li {
+        padding-left: 13px;
+    }
+    .banner-slider-content {
+        padding: 0 40px;
+    }
+    .banner-slider-content::before {
+        left: 10px;
+        top: -41px;
+    }
+    .banner .owl-nav button.owl-prev {
+        left: 15px;
+    }
+    .banner .owl-nav button.owl-next{
+        right: 15px;
+    }
+    .banner::after {
+        bottom: -1px;
+    }
+    .about-content h2 {
+        font-size: 80px;
+    }
+    .about-content h3 {
+        font-size: 35px;
+    }
+    .about-content {
+        padding: 0 20px 50px 20px;
+    }
+    .course-heading h2 {
+        font-size: 80px;
+    }
+    .course-heading h3 {
+        font-size: 35px;
+    }
+    .course {
+        padding: 110px 0px 215px 0px;
+    }
+    .course::after {
+        bottom: -1px;
+    }
+    .course-p::before {
+        left: 32px;
+        top: -30px;
+    }
+    .blog-p::before {
+        left: 33px;
+        top: -28px;
+    }
+    .conatct-us {
+        padding: 48px 30px 65px;
+        width: 100%;
+    }
+    .blog2-p::before {
+        left: 40px;
+        top: -40px;
+        z-index: 99;
+    }
+    iframe {
+        width: 100%;
+    }
+    .about-content h2::before {
+        left: -29px;
+        top: -32px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .banner-slider-content::before {
+        left: 48px;
+    }
+    .banner .owl-nav button.owl-prev {
+        left: 35px;
+    }
+    .banner .owl-nav button.owl-next {
+        right: 35px;
+    }
+}
+
+
+
+
